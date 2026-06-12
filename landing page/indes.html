@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width, user-scalable=0">
+        <link rel="stylesheet" href="assets/css/index.css">
+        <script type="text/javascript">
+            window.onload = function(){
+                document.querySelector("#Destaques").addEventListener("click", function(){
+                    if(document.querySelector("#vazio").style.display == 'flex'){
+                        document.querySelector("#vazio").style.display = 'none';
+                    }
+                    else{document.querySelector("#vazio").style.display = 'flex'}
+                });
+            };
+        </script>
+    </head>
+    <body>
+        <header>
+            </nav>
+
+                <div class="container">
+                        <div>
+                            <a href=""><img src="assets/images/mirtilo.png" id="logo"></a>
+                        </div> 
+                        <div id="menu">
+                            <a href=""><div class="button active">Destaques</div></a>
+                            <a href=""><div class="button">Cardapio</div></a>
+                            <a href=""><div class="button">Pedidos</div></a>
+                        </div>
+                </div>
+
+            </nav>
+        </header>
+
+        <main>
+            <section id="banner">
+                <div class="container">
+                        <div id="banner-text">
+                            <h1>O açaí mais cremoso
+                                <br> 
+                            <span>da cidade</span></h1>
+                        </div>
+                        <div id="banner-functions">
+                            <div id="banner-image">
+                                <img src="assets/images/copo de açai.jpg">
+                            </div>
+                            <div id="pede">
+                                <button id="Peça">Peça Agora</button>
+                            </div>
+                        </div>
+                </div>        
+            </section>
+            
+            <section id="combos">
+                <div class="container">
+                    <h2 id="Destaques">Combos em Destaque</h2>
+                    <div id="vazio">
+                        <div id="combos-alinhamento">
+                            <div id="box-cards">
+                                <div class="cards card1">
+                                    <div class="images">
+                                        <img src="assets/images/COMBO ESPECIAL DIVINO.png">
+                                    </div>
+                                </div>
+                                <div class="cards card2">
+                                    <div class="images">
+                                        <img src="assets/images/COMBO ESPECIAL FERRERO.png">
+                                    </div>
+                                </div>
+                                <div class="cards card3">
+                                    <div class="images">
+                                        <img src="assets/images/COMBO ESPECIAL ITALIANO.png">
+                                    </div>
+                                </div>
+                                <div class="cards card4">
+                                    <div class="images">
+                                        <img src="assets/images/COMBO ESPECIAL KINDER.png">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                <div id="info">
+                                        <div class="info1 infos">
+                                            <h3>DIVINO</h3>
+                                            <p>Uma combinação equilibrada e refrescante. A base de açaí cremoso recebe morangos selecionados, uvas frescas e um toque de creme suave, criando uma experiência leve, sofisticada e naturalmente doce.</p>
+                                        </div>
+                                        <div class="info2 infos">
+                                            <h3>FERRERO</h3>
+                                            <p>Intenso e indulgente. Açaí de alta cremosidade envolvido por chocolate nobre e texturas crocantes, proporcionando uma experiência rica e marcante para os verdadeiros amantes de chocolate.</p>
+                                        </div>
+                                        <div class="info3 infos">
+                                            <h3>ITALIANO</h3>
+                                            <p>Elegância em cada colher. Uma fusão harmoniosa entre o açaí e creme especial, com notas suaves e textura refinada, ideal para quem busca um sabor diferenciado e sofisticado.</p>
+                                        </div>
+                                        <div class="info4 infos">
+                                            <h3>KINDER</h3>
+                                            <p>Delicado e irresistível. A união perfeita entre açaí e chocolates cremosos, com equilíbrio entre o doce e o intenso, entregando uma experiência envolvente e aconchegante.</p>
+                                        </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        
+        </main>
+
+        <footer>
+            <div class="container">
+
+                <div id="footer-information">
+                    <p>Dev-Tregues</p>
+                </div>
+
+                <div id="assets">
+                    <a class="images-assets" href=""><img src="assets/images/instagram.png"></a>
+                    <a class="images-assets" href=""><img src="assets/images/youtube.png"></a>
+                    <a class="images-assets" href=""><img src="assets/images/facebook.png"></a>
+                    
+                </div>
+
+            </div>
+        </footer>
+    </body>
+</html>

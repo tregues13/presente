@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button{
+    padding: 20px;
+    font-size: 20px;
+    background: linear-gradient(-65deg, #88f, #aaf,#cce );
+    transition: all 1s ease;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    box-shadow: 2px 2px 10px #000;
+    width: 300px;
+}
+button:hover{
+    background:   linear-gradient(-65deg, #44e, #66f,#88f); 
+    cursor: pointer;
+    color: #eef;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width, user-scalable=0">
+    <link rel="stylesheet" href="assets/css/google.css">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector("#area-text").addEventListener("focus",function(){
+                if(document.querySelector("#sugestoes").style.display == 'flex'){
+                    document.querySelector("#sugestoes").style.display = 'none'
+                }
+                else{
+                    document.querySelector("#sugestoes").style.display = 'flex'
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+    <header>
+        <div id="menu-google" >
+            <div class="menu-interention text">
+                <a href="">Gmail</a>
+                <a href="">Imagens</a>
+            </div>
+
+            <div id="apps-google" class="menu-interention">
+                <div id="alinhamento">
+                    <a href="">
+                        <div class="bolas"></div>
+                        <div class="bolas"></div>
+                        <div class="bolas"></div>
+                        <div class="bolas"></div>
+                        <div class="bolas"></div>
+                        <div class="bolas"></div>
+                        <div class="bolas"></div>
+                        <div class="bolas"></div>
+                        <div class="bolas"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div id="box-profile" class="menu-interention">
+                <a href=""><img src="https://lh3.googleusercontent.com/a/ACg8ocKtKP1OnjW4jaZ6o-c_XT4te0GGGgnR_SLZrjfSgpK3EWuQdkEY=s288-c-no" id="profile"></a>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div id="area-pesquisa">
+            <div id="img-pesquisa">
+                <img src="https://www.google.com/logos/doodles/2026/earth-day-2026-6753651837111006.3-la1f1f1f.gif">
+            </div>
+            
+            <div id="text-area">
+                <div class="box-cruz">
+                    <input type="file" id="arquivo">
+                    <label for="arquivo">
+                        <div class="cruz height"></div>
+                        <div class="cruz width"></div>
+                    </label>
+                </div>
+                <div>
+                    <input type="text" id="area-text">
+                </div>
+                <div id="voz">
+                    <img src="assets/images/voz-do-google.png">
+                </div>
+            </div>
+            <div id="sugestoes">
+                    <div class="pesquisa1  opção">
+                        <img src="assets/images/relogio.png" class="relogio-img">
+                        <p>Assuntos em alta</p>
+                    </div>
+                    <div class="pesquisa2  opção">
+                        <img src="assets/images/relogio.png" class="relogio-img">
+                       <p>Interesses Diarios</p>
+                    </div>
+                    <div class="pesquisa3  opção">
+                        <img src="assets/images/relogio.png" class="relogio-img">
+                        <p>Alanzoka</p>
+                    </div>
+                    <div class="pesquisa4  opção">
+                        <img src="assets/images/relogio.png" class="relogio-img">
+                        <p>Como progamar em javascript?</p>
+                    </div>
+            </div>
+            <div id="caixas">
+                <div class="box-caixas">Pesquisa Google</div>
+                <a href="https://doodles.google"><div class="box-caixas">Estou com sorte</div></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-top">
+            Brasil
+        </div>
+        <div id="footer-bootom">
+            <div>
+                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiZzY3JgISUAxWPqpUCHXDxFnwQkNQCCCo&url=https%3A%2F%2Fabout.google%2F%3Futm_source%3Dgoogle-BR%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw3gf0CCgkBW5U8ABkzdJTLX&opi=89978449"> Sobre</a>
+                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiZzY3JgISUAxWPqpUCHXDxFnwQkdQCCCs&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fpt-BR_br%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw0SBrV37CSf6tzE6MLGHNdg&opi=89978449">Publicidade</a>
+                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwiZzY3JgISUAxWPqpUCHXDxFnwQktQCCCw&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K&opi=89978449">Negócios</a>
+                <a href="https://google.com/search/howsearchworks/?fg=1">Como funciona a Pesquisa</a>
+            </div>
+            <div>
+                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&ved=0ahUKEwiZzY3JgISUAxWPqpUCHXDxFnwQ8awCCC0&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Fhl%3Dpt-BR%26fg%3D1&usg=AOvVaw38fspUc-lPeC-l8V8E2yk0&opi=89978449">Privacidade</a>
+                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&ved=0ahUKEwiZzY3JgISUAxWPqpUCHXDxFnwQ8qwCCC4&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Fhl%3Dpt-BR%26fg%3D1&usg=AOvVaw3h34CxlTDQxqKNSK8DxUZk&opi=89978449">Termos</a>
+                <a href="https://www.google.com/?hl=pt_br&zx=1776948383130">Configurações</a>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>

@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--background);
+}
+:root{
+--background:#22242a; 
+--cards-menu:#303134;
+--Texto-principal: #E8E8E8;
+--Texto-secundario: #9AA0A6;
+--footer: #16171a;
+}
+a{
+    text-decoration: none;
+    color: var(--Texto-principal);
+}
+a:hover{
+    text-decoration: underline;
+}
+header{
+    display: flex;
+    height: 90px;
+    justify-content: flex-end;
+}
+#menu-google{
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu-interention{
+    padding: 0px 5px;
+}
+.text a{
+    padding: 0px 0px 0px 15px;
+}
+#apps-google{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-flow: row wrap;
+    width: 48px;
+    height: 48px;
+    border-radius:50%;
+    padding: 5px;
+}
+#alinhamento{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-flow: row wrap;
+    width: 48px;
+}
+#alinhamento a {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-flow: row wrap;
+    width: 40px;
+    padding: 8px;
+}
+#apps-google:hover{
+    background-color:var(--cards-menu);
+    cursor: pointer;
+}
+.bolas{
+    border-radius: 100%;
+    background-color:var(--Texto-principal);
+    width: 5px;
+    height: 5px;
+    margin: 1px;
+}
+#profile{
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid #00f,#f00,#0f0,#ff0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+#area-pesquisa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#text-area{
+    margin-top: 10px;
+    display: flex;
+    width:688px;
+    height: 50px;
+    background-color: #4d5156;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    padding: 10px;
+}
+#text-area:hover{
+    background-color: var(--Texto-secundario);
+}
+#area-text:focus #text-area{
+    border-bottom-right-radius: 0px ;
+    border-bottom-left-radius: 0px;
+}
+.box-cruz{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50% ;
+}
+label{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-cruz:hover{
+    background-color: #4d5156;
+}
+.box-cruz .height{
+    height: 16px;
+    width: 2px;;
+    position: absolute;
+}
+.box-cruz .width{
+    width: 16px;
+    height: 2px;
+    position: absolute;
+}
+.cruz{
+    cursor: pointer;
+    background-color: var(--Texto-principal);
+}
+input[type="file"]{
+    display: none;
+}
+input[type="text"]{
+    border: none;
+    width: 600px;
+    height: 30px;
+    font-size: 22px;    
+    background-color: inherit;
+    color: #e8eaed;
+}
+input[type="text"]:focus{
+    border: none;
+    outline: none;
+}
+img[src="assets/images/voz-do-google.png"]{
+    width: 30px;
+    border-radius:50%;
+}
+img[src="assets/images/voz-do-google.png"]:hover{
+    cursor: pointer;
+}
+#sugestoes{
+    display: none;
+    flex-direction: column;
+    width: 688px;
+    background-color: #4d5156;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 330px;
+    position: relative;
+}
+#sugestoes p{
+    padding: 0px 20px;
+}
+.opção{
+    padding: 6px 0px;
+    display: flex;
+    align-items: center;
+    color: #c4c7c5;
+}
+.opção:hover{
+    background-color:#444746;
+    cursor: pointer;
+}
+.relogio-img{
+    width: 25px;
+    margin-left: 20px;
+}
+#caixas{
+    display: flex;
+    padding-top: 18px;
+}
+#caixas a:hover{
+    text-decoration: none;
+}
+.box-caixas{
+    padding: 0px 16px;
+    height: 36px;
+    text-align: center;
+    color: #e8eaed;
+    background-color: #5f6368;
+    border-radius: 8px;
+    margin: 11px 4px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #303134;
+    box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+}
+.box-caixas:hover{
+    border: 1px solid #5f6368;
+    background-color: #303134;
+    cursor: pointer;
+}
+footer{
+    height: 94px;
+    background-color: var(--footer);
+    display: flex;
+    flex-direction: column;
+}
+#footer-top{
+    border-bottom: 1px solid #444746;
+    padding: 15px 30px;
+    color: #c4c7c5;
+    font-size: 15px;
+    height: 48px;
+}
+#footer-bootom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 46px;
+    padding: 0px 20px;
+    font-size: 15px;
+}
+#footer-bootom a{
+    padding: 15px;
+}

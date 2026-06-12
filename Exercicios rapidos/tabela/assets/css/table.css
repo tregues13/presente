@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+table{
+    border: 1px solid #000;
+    width: 400px;
+}
+thead{
+    background-color: #636363;
+}
+td{
+    border: 1px solid #000;
+}
+tbody tr:nth-child(odd){
+    background-color: #f00;
+}
